@@ -4,6 +4,7 @@ inject HTML task tryhackme
 ![screenshot](https://github.com/maapik/writeupes_CTF/blob/main/HTML_inject/1.png)
 
 Решение: открываем этот сайт и видим данную картину:
+
 ![2](https://github.com/maapik/writeupes_CTF/blob/main/HTML_inject/2.png)
 
 

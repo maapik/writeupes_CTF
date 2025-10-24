@@ -11,4 +11,4 @@
 4. Обновил страницу и получил флаг.
 
 ## Скриншот
-![Куки и флаг]()
+![Куки и флаг](https://github.com/maapik/writeupes_CTF/blob/main/WEB/duckerz_cookie_milk/5.png)

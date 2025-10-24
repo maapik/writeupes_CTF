@@ -26,7 +26,7 @@ alert('Congratulations! The answer is ' + decodeBase64("SFRNTF9JTkozQ1RJME4="))
 2 способ как просит задача:
 видя условие этого кода мы можем сделать вывод что мы можем встроить ссылку в имя где пишется welcome (….) через html инъекцию 
  итог выглядит так:
- "<a href="http://hacker.com">loh</a>"
+ "<a href/="http://hacker.com">loh</a>" без "/" после herf
  ввожу это в строку ввода и нам выведет флаг
  ![6](https://github.com/maapik/writeupes_CTF/blob/main/HTML_inject/6.png)
 Ч.Т.Д

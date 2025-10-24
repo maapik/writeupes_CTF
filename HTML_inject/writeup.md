@@ -12,7 +12,7 @@ inject HTML task tryhackme
 я могу посмотреть код элемента фрейма т.е один из двух окнов при нажатии "просмотреть код фрейма" мы увидим это:
 ![3](https://github.com/maapik/writeupes_CTF/blob/main/HTML_inject/3.png)
 
-мы знаем что нам нужно обмануть  поле ввода, тут скорее всего должна стоять защита на xss запрос 
+мы знаем что нам нужно обмануть  поле ввода, тут скорее всего должна стоять защита по типу на xss запрос 
 а защита стоит в JS скрипте и тут есть ссылка на него 
 при переходе мы увидим это:
 ![4](https://github.com/maapik/writeupes_CTF/blob/main/HTML_inject/4.png)
@@ -26,7 +26,7 @@ alert('Congratulations! The answer is ' + decodeBase64("SFRNTF9JTkozQ1RJME4="))
 2 способ как просит задача:
 видя условие этого кода мы можем сделать вывод что мы можем встроить ссылку в имя где пишется welcome (….) через html инъекцию 
  итог выглядит так:
- <a href="http://hacker.com">loh</a>
+ "<a href="http://hacker.com">loh</a>"
  ввожу это в строку ввода и нам выведет флаг
  ![6](https://github.com/maapik/writeupes_CTF/blob/main/HTML_inject/6.png)
 Ч.Т.Д

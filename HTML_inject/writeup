@@ -1,6 +1,7 @@
 inject HTML task tryhackme
 есть таск:
-<image-card alt="TASK" src="HTML_inject/Screenshot 2025-10-23 201356.png" ></image-card>
+## Screenshot
+<image-card alt="Flappy Bird Flag Alert" src="HTML_inject/1task.png" ></image-card>
 Решение: открываем этот сайт и видим данную картину:
 
 
